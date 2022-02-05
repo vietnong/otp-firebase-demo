@@ -55,7 +55,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Trang hâm hấp</h1>
       <h1>Login Form</h1>
       <form onSubmit={e => onSignInSubmit(e)}>
         <div id="sign-in-button"></div>
